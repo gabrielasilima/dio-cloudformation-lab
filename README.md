@@ -4,7 +4,7 @@ Desafio DIO - Implementando sua Primeira Stack com AWS CloudFormation
 # Desafio DIO - Implementando sua Primeira Stack com AWS CloudFormation
 
 Este repositório contém a prática do laboratório proposto pela DIO, cujo objetivo é criar e gerenciar recursos na AWS por meio do **AWS CloudFormation**.  
-A documentação serve como material de apoio para revisão de conceitos e para futuras implementações.
+A documentação serve como material de apoio para revisão de conceitos.
 
 ---
 
@@ -12,22 +12,22 @@ A documentação serve como material de apoio para revisão de conceitos e para 
 
 - Aplicar os conceitos aprendidos em um ambiente prático.  
 - Documentar processos técnicos de forma clara e estruturada.  
-- Utilizar o GitHub como ferramenta para compartilhamento de documentação técnica.  
+- Utilizar o GitHub como ferramenta para compartilhamento de documentação.  
 
 ---
 
-## Etapas do Desafio
+## Etapas 
 
 ### 1️. Configuração do Ambiente
 Antes de iniciar, é necessário garantir:
-- Conta ativa na **AWS**.  
-- Usuário com permissões para usar o **CloudFormation**.  
+- Conta ativa na **AWS**;  
+- Usuário com permissões para usar o **CloudFormation**;
 - Acesso ao console ou AWS CLI configurada localmente.  
 
 ---
 
 ### 2️. Entendendo o CloudFormation
-O **AWS CloudFormation** permite criar recursos de infraestrutura como código (IaC).  
+O **AWS CloudFormation** permite criar recursos de infraestrutura como código (IaC),
 Em vez de configurar manualmente cada serviço, você descreve a infraestrutura em um **template YAML ou JSON** e o serviço provisiona automaticamente.  
 
 ---
@@ -38,7 +38,7 @@ Exemplo de um bucket S3 simples:
 
 ```yaml
 AWSTemplateFormatVersion: "2010-09-09"
-Description: "Exemplo de Stack simples com S3"
+Description: "Exemplo de Stack com S3"
 
 Resources:
   MyBucket:
